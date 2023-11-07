@@ -95,7 +95,7 @@ build_frontend_and_push_to_docker_hub:
         with:
           context: ./frontend/
           push: true
-          tags: serg888/taski_backend:latest 
+          tags: serg888/taski_backend:latest
 
   build_and_push_to_docker_hub:
     name: Push Docker image to DockerHub
